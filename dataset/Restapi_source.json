@@ -1,0 +1,32 @@
+{
+	"name": "Restapi_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_restapi_source",
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"BaseURL": {
+					"value": "@dataset().Baseurl",
+					"type": "Expression"
+				}
+			}
+		},
+		"parameters": {
+			"Baseurl": {
+				"type": "string"
+			},
+			"ID": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": {
+				"value": "@dataset().ID",
+				"type": "Expression"
+			}
+		},
+		"schema": []
+	}
+}
