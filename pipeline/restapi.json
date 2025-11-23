@@ -57,6 +57,10 @@
 										"Baseurl": {
 											"value": "@pipeline().parameters.PPBaseURL",
 											"type": "Expression"
+										},
+										"ID": {
+											"value": "@item()",
+											"type": "Expression"
 										}
 									}
 								}
