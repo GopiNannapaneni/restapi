@@ -1,0 +1,9 @@
+{
+	"name": "restapidatafactorygk",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c0beadee-0e1e-4ce0-a752-893b53aa9f5f",
+		"tenantId": "8faaeb77-58f2-4365-a62c-9ba191566dd1"
+	}
+}
